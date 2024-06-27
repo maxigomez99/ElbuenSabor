@@ -1,4 +1,4 @@
-import Categorias from "../components/pages/categorias/Categorias";
+
 
 export interface Imagen {
   id: number;

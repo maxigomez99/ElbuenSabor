@@ -13,7 +13,7 @@ const CategoriasPorSucursal = () => {
   const [sucursales, setSucursales] = useState<Sucursal[]>([]);
   const [selectedEmpresa, setSelectedEmpresa] = useState('');
   const [selectedSucursal, setSelectedSucursal] = useState('');
-  const [refreshKey, setRefreshKey] = useState(0);
+  const [refreshKey, ] = useState(0);
 
   useEffect(() => {
     const fetchEmpresas = async () => {
